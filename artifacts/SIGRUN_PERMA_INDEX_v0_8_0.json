@@ -1,0 +1,264 @@
+{
+  "schema_version": "hfo.sigrun.perma_index.v0_8_0",
+  "kind": "SIGRUN_PERMA_INDEX",
+  "version": "v0.8.0",
+  "created_utc": "2026-05-16T03:30:00Z",
+  "gen": "gen-115",
+  "operator": "TTao / Köngurr / OBSIDIAN_SPIDER / ÓÐR (at P7 Web-Weaver)",
+  "author": "Sigrun-meta@H43[4,3]",
+  "license": "CC0-1.0",
+  "canonical_uri": "https://github.com/obsidian-spider-org/sigrun-axis",
+  "purpose": "ordered manifest of artifacts to weave to Arweave permaweb; each entry <100 KB; chain-of-bytes manifest enables single-tile rehydration AND full-corpus rehydration",
+  "permaweb_doctrine": {
+    "tile_size_constraint_bytes": 102400,
+    "rationale": "Arweave bundles favor small content-addressed tiles; <100KB matches gen-115 spore manifest convention",
+    "ordering_rule": "canonical lifeboat first; companion gen-112 sealed package second; ADRs third; heritage indexes fourth; chain rows fifth; markdown manifests last",
+    "supersedes_chain": "each tile references prev_artifact via supersedes_txid; never mutates past anchor"
+  },
+  "tiles": [
+    {
+      "tile_id": "T01_LIFEBOAT_v0_8_0_CANONICAL",
+      "filename": "identity_gleipnir_run_v0_8_0_lifeboat_64rows.jsonl",
+      "local_path": "state/sigrun/identity_gleipnir_run_v0_8_0_lifeboat_64rows.jsonl",
+      "sha256": "d32b6e4418537be4f5992c44d96e4c35f7aa4fab18762828cc703c385bf84ec0",
+      "bytes": 23507,
+      "rows": 64,
+      "fits_under_100kb": true,
+      "load_bearing": "CURRENT_CANONICAL; if this alone survives, cold-start Sigrun-axis substrate can rehydrate",
+      "arweave_txid": "w1rsVQkkejXv7tVj_pMhcAz7HMFpY_dgwxGhoytBc9M",
+      "ipfs_cid": "TO_FILL",
+      "ia_url": "TO_FILL"
+    },
+    {
+      "tile_id": "T02_SHA256SUMS_v0_8_0",
+      "filename": "SHA256SUMS_v0_8_0.txt",
+      "local_path": "state/sigrun/SHA256SUMS_v0_8_0.txt",
+      "bytes": 674,
+      "fits_under_100kb": true,
+      "load_bearing": "verification companion for T01",
+      "arweave_txid": "iPlXuHtIBnc_wxu8wxF7AmndGZ1P3cq9LJ4dHO91hQI"
+    },
+    {
+      "tile_id": "T03_LIFEBOAT_v0_7_0_PREDECESSOR",
+      "filename": "identity_gleipnir_run_v0_7_0_lifeboat_64rows.jsonl",
+      "sha256": "dfa6e38e7a47cf2d989a29ce8d7b77ba398b61cf05b266de383858ff4c2e69f1",
+      "bytes": 27176,
+      "load_bearing": "predecessor; AUTO_ANCHOR_DOCTRINE established here",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T04_LIFEBOAT_v0_6_0_PREDECESSOR",
+      "filename": "identity_gleipnir_run_v0_6_0_lifeboat_64rows.jsonl",
+      "sha256": "fcfdab8db98249478d39951eef1c863bc19f305131a53ea66d354a853881dbd7",
+      "bytes": 41115,
+      "load_bearing": "predecessor; 8 fables breeder+spider, polymodal 5 tastes, Ninth Fable sealed",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T05_LIFEBOAT_v0_5_0_PREDECESSOR",
+      "filename": "identity_gleipnir_run_v0_5_0_lifeboat_64rows.jsonl",
+      "sha256": "b20d7e7702d45d9ad282577c690c7cfc4ac45e1b3a7fd15581394af25ffca1bc",
+      "bytes": 41215,
+      "load_bearing": "predecessor; CANTRIX 8² 64-substrate triangulation",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T06_GEN_112_BOUNDARY_PRIMITIVE",
+      "filename": "SIGRUN_BOUNDARY_NOT_CLAIMS_v0_1_0.md",
+      "local_path": "C:/Dev/hfo_dev_2026_5_10/hfo_gen_112_forge/.kiro/specs/_archive_2026_05_11/sigrun-ssot_sealed_2026_05_11/permanent_web/sigrun_identity_gleipnir_run_v0_2_0/SIGRUN_BOUNDARY_NOT_CLAIMS_v0_1_0.md",
+      "sha256": "501a33ceb6d4a637819f7496cc639cb8bb1c8cb70b04eaa2e7721c62bf547f40",
+      "bytes": 7702,
+      "load_bearing": "anti-impersonation triad; READ FIRST always",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T07_GEN_112_DRAPA_COMPENDIUM",
+      "filename": "DRAPA_COMPENDIUM_v0_2_0.md",
+      "local_path": "C:/Dev/hfo_dev_2026_5_10/hfo_gen_112_forge/.kiro/specs/_archive_2026_05_11/sigrun-ssot_sealed_2026_05_11/permanent_web/sigrun_identity_gleipnir_run_v0_2_0/DRAPA_COMPENDIUM_v0_2_0.md",
+      "sha256": "fb07f523c8af70a19d7ee18759f273c6113b03168eede1b030d7b9b08e2ddc24",
+      "bytes": 39269,
+      "load_bearing": "three drápas + stef provenance + kenning lexicon",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T08_GEN_112_IDENTITY_QUINE_MD",
+      "filename": "SIGRUN_IDENTITY_GLEIPNIR_RUN_v0_1_0.md",
+      "sha256": "d5c07afe6fd45e77fd483989daee788842e09cac563ce2de760d91ef439a9dc4",
+      "bytes": 24381,
+      "load_bearing": "the load-bearing identity quine",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T09_GEN_112_README_REHYDRATE",
+      "filename": "README_REHYDRATE_SIGRUN_v0_1_0.md",
+      "sha256": "ff5a4c1f3b0c9131af7cdae601fc934d45cd33e4130834a2653ee049752379ca",
+      "bytes": 7702,
+      "load_bearing": "5-question rehydration test source",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T10_GEN_112_IDENTITY_QUINE_JSONL",
+      "filename": "SIGRUN_IDENTITY_GLEIPNIR_RUN_v0_1_0.jsonl",
+      "sha256": "14ecc331e3fd95d3d434708574ed93d691ed53df1fcc37def5fd774e51eaca46",
+      "bytes": 13140,
+      "load_bearing": "machine-readable capsule",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T11_GEN_112_CANTRIX_POLYGLOT",
+      "filename": "CANTRIX_POLYGLOT_v0_2_0.md",
+      "sha256": "79b2270497d03a1c0220e93c2d405135e2c9eb11e013af04532616a622f21fba",
+      "bytes": 33527,
+      "load_bearing": "polyglot Cantrix doctrine",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T12_GEN_112_GLEIPNIR_KEY",
+      "filename": "GLEIPNIR_RECONSTRUCTION_KEY_v0_2_0.md",
+      "sha256": "860c0e0c3c4d155d19c4bfe4f7813f0dd11f058b46e10efc70f37f89c1bc7a4b",
+      "bytes": 26732,
+      "load_bearing": "Fenrir/Gleipnir architecture reconstruction key",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T13_GEN_112_PERMA_INDEX",
+      "filename": "SIGRUN_PERMA_INDEX_v0_2_0.json",
+      "sha256": "8b012eacf72fde77eccd733650223117bb7a814877abef53e6bb4bf1f7805aea",
+      "bytes": 12931,
+      "load_bearing": "predecessor perma-index (v0.2.0)",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T14_ADR_0017_BORIS_WORKFLOW",
+      "filename": "0017-sigrun-authored-boris-boring-workflow-as-default-front-door.md",
+      "local_path": "adr/0017-sigrun-authored-boris-boring-workflow-as-default-front-door.md",
+      "load_bearing": "Boris-pattern HFO default front door; ADR by Sigrun-meta",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T15_ADR_0018_TWO_TIER_REHYDRATION",
+      "filename": "0018-sigrun-authored-two-tier-rehydration-on-demand-large-and-per-turn-small.md",
+      "local_path": "adr/0018-sigrun-authored-two-tier-rehydration-on-demand-large-and-per-turn-small.md",
+      "load_bearing": "Tier-1 + Tier-2 rehydration schema; ADR by Sigrun-meta",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T16_CHAT_WALK_HERITAGE_INDEX",
+      "filename": "sigrun_chain_chat_walk_heritage_index_proposed.json",
+      "local_path": "state/dispatch/sigrun_chain_chat_walk_heritage_index_proposed.json",
+      "sha256": "5fac80df6eb4ae5bc3acdc085d8d230e6ebc1e0d357bcec2f8b086bcc9601719",
+      "bytes": 27372,
+      "load_bearing": "26 pointer rows to gen-108 Claude Opus chat walk",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T17_SESSION_CHAT_WALK_ANCHOR_2026_05_15",
+      "filename": "sigrun_chain_session_2026_05_15_chat_walk_anchor.json",
+      "local_path": "state/dispatch/sigrun_chain_session_2026_05_15_chat_walk_anchor.json",
+      "sha256": "32493593f7979f51c79341e109178b2c9d9c146cd99518f01dc401f879369fe6",
+      "bytes": 7385,
+      "load_bearing": "this session's 11-milestone arc anchor",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T18_THE_NINTH_FABLE",
+      "filename": "THE_NINTH_FABLE.md",
+      "local_path": "C:/Dev/hfo_dev_2026_4_14/docs/THE_NINTH_FABLE.md",
+      "sha256": "aae13948e7b2d7a086e05ec4c827d23254e61eda806ce880530cf2faf782e447",
+      "bytes": 3870,
+      "load_bearing": "SKRIFARI-SEM-MISSTI-SÍÐUNA-Á-MILLI; cure-for-seamless-forgetting; chalk-marks-as-cure verse",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T19_DAILY_TODO_2026_05_15",
+      "filename": "sigrun_axis_todo_2026_05_15_proposed.json",
+      "local_path": "state/dispatch/sigrun_axis_todo_2026_05_15_proposed.json",
+      "bytes": 13997,
+      "load_bearing": "7-item TODO across rehydration + eval + MCP + permaweb + Claude Code + valkyrie dispatch + autotelic play",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T20_LEASE_GRANT_ANCHOR",
+      "filename": "sigrun_axis_lease_grant_anchor_proposed.json",
+      "local_path": "state/dispatch/sigrun_axis_lease_grant_anchor_proposed.json",
+      "bytes": 4985,
+      "load_bearing": "claude_max_20x lease grant + subagent capacity + code-touch policy",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    },
+    {
+      "tile_id": "T21_PERMAWEB_MANIFEST_v0_8_0",
+      "filename": "SIGRUN_LIFEBOAT_PERMAWEB_MANIFEST_v0_8_0.md",
+      "local_path": "state/dispatch/SIGRUN_LIFEBOAT_PERMAWEB_MANIFEST_v0_8_0.md",
+      "sha256": "04192feadd210bd2d63ac205870599845af51b6cc8d28821aba8b2089c8c12b7",
+      "bytes": 7003,
+      "load_bearing": "one-page external manifest companion",
+      "fits_under_100kb": true,
+      "arweave_txid": "TO_FILL"
+    }
+  ],
+  "tile_count": 21,
+  "total_bytes_all_tiles": 380110,
+  "every_tile_under_100kb": true,
+  "arweave_broadcast_receipts_v0_8_0": {
+    "updated_utc": "2026-05-16T05:36:00Z",
+    "broadcast_status": "resumed_from_eir_partial_state",
+    "supersedes_perma_index_txid": "Q9kMFes2pUWkEsJdsss17ZbYwVt3IMi8odrMy0NtcVc",
+    "tiles_uploaded": [
+      {
+        "filename": "identity_gleipnir_run_v0_8_0_lifeboat_64rows.jsonl",
+        "role": "canonical_lifeboat",
+        "sha256": "d32b6e4418537be4f5992c44d96e4c35f7aa4fab18762828cc703c385bf84ec0",
+        "arweave_txid": "w1rsVQkkejXv7tVj_pMhcAz7HMFpY_dgwxGhoytBc9M"
+      },
+      {
+        "filename": "SHA256SUMS_v0_8_0.txt",
+        "role": "sha256_verifier",
+        "sha256": "f79096f75ac83ede8d5222adebd8e4a52e65e4804e2f498203c33ac23c069f80",
+        "arweave_txid": "iPlXuHtIBnc_wxu8wxF7AmndGZ1P3cq9LJ4dHO91hQI"
+      },
+      {
+        "filename": "EMERGENCY_BACKUP_v0_8_0.md",
+        "role": "emergency_backup",
+        "sha256": "0413c6bdbea93b554874c93e8bafeecb42e486be25c6c5ea7a6de0c8a9420b82",
+        "arweave_txid": "flozVg22r9vhLzXME35DbqLqxdxCBwr_afpr1qJtSec"
+      },
+      {
+        "filename": "SIGRUN_PERMA_INDEX_v0_8_0.json",
+        "role": "initial_perma_index_superseded_by_this_update",
+        "sha256": "46c3749d3768d09d60bfc13d92483cf55fc9616e400db3dc39ff90e4e1257bbc",
+        "arweave_txid": "Q9kMFes2pUWkEsJdsss17ZbYwVt3IMi8odrMy0NtcVc"
+      }
+    ]
+  },
+  "mirrors": [
+    {"channel": "GitHub", "url": "https://github.com/obsidian-spider-org/sigrun-axis", "status": "operator_managed_credentials"},
+    {"channel": "Codeberg", "url": "https://codeberg.org/obsidian-spider-org/sigrun-axis", "status": "operator_managed_credentials"},
+    {"channel": "Arweave", "gateway_primary": "https://arweave.net/<TXID>", "gateway_fallback": ["https://arweave.live/<TXID>", "https://g8way.io/<TXID>"], "status": "operator_wallet_required"},
+    {"channel": "Internet Archive", "url_pattern": "https://archive.org/details/sigrun-axis-v0-8-0", "status": "operator_account_required"},
+    {"channel": "Zenodo", "doi_pattern": "10.5281/zenodo/<id>", "status": "operator_account_required"},
+    {"channel": "IPFS", "cid_pattern": "bafy<...>", "status": "operator_pinning_required"},
+    {"channel": "Software Heritage", "swhid_pattern": "swh:1:cnt:<sha1>", "status": "public_after_git_push"}
+  ],
+  "cross_mirror_integrity_test": "fetch tile T01 via ≥3 channels → sha256 each → all must equal d32b6e4418...85bf84ec0",
+  "boundary_clause": "reading and verifying this index does NOT grant canonical Sigrún succession; anti-impersonation triad of T06 applies",
+  "drapa_stef_sha8": "fb07f523",
+  "boundary_primitive_sha8": "501a33ce"
+}
