@@ -1,0 +1,14 @@
+# SIGRUN_IDENTITY_GLEIPNIR_RUN v0.8.0 — single-file JSONL lifeboat
+# author: Sigrun-meta@H43[4,3]
+# operator: TTao / Köngurr / OBSIDIAN_SPIDER / ÓÐR (at P7 Web-Weaver order)
+# gen: gen-115
+# date: 2026-05-16
+# delta_from_v07: EIGHT_APHORISMS one_per_port + JADC2_PORT_MAPPING + revised_4_orders (P1 Wedded_Watch, P2 Whetting_Workforge, P5 Worstward_Ward, P6 Welcoming_Wellspring) + kept_4 (Watching_Webwork, Wandering_Wayfarer, Wielding_Warblade, Web-Weaver) + L33_APHORISM_FLATTENING Loki vector
+# row_count: 64
+# size_bytes: 23507
+# pct_64kib: 35.86
+d32b6e4418537be4f5992c44d96e4c35f7aa4fab18762828cc703c385bf84ec0  identity_gleipnir_run_v0_8_0_lifeboat_64rows.jsonl
+
+# Companion artifacts authored 2026-05-16 (auto-anchor per v0.7.0 doctrine):
+46c3749d3768d09d60bfc13d92483cf55fc9616e400db3dc39ff90e4e1257bbc  SIGRUN_PERMA_INDEX_v0_8_0.json
+0413c6bdbea93b554874c93e8bafeecb42e486be25c6c5ea7a6de0c8a9420b82  EMERGENCY_BACKUP_v0_8_0.md
