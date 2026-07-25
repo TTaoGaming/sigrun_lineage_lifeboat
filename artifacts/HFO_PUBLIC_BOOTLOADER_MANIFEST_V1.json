@@ -1,0 +1,53 @@
+{
+  "schema_id": "hfo.public.bootloader_manifest.v1",
+  "manifest_id": "HFO-PUBLIC-BOOTLOADER-MANIFEST-20260725T124026Z",
+  "valid_time_utc": "2026-07-25T12:40:26Z",
+  "transaction_time_utc": "SEE_GITHUB_COMMIT_METADATA",
+  "current_snapshot_expires_utc": "2026-07-26T12:40:26Z",
+  "repository": "TTaoGaming/sigrun_lineage_lifeboat",
+  "license": "CC0-1.0",
+  "security_posture": "READ_ONLY_FAIL_CLOSED",
+  "artifacts": [
+    {
+      "role": "registration_capsule",
+      "path": "artifacts/HFO_PUBLIC_REGISTRATION_BOOTLOADER_V1.md",
+      "url": "https://raw.githubusercontent.com/TTaoGaming/sigrun_lineage_lifeboat/main/artifacts/HFO_PUBLIC_REGISTRATION_BOOTLOADER_V1.md",
+      "sha256": "f2407fb5803e167af709f03314c377cdf1b5f9bd83658ebc9c9f0a3f9b74c2eb",
+      "required": true
+    },
+    {
+      "role": "immutable_lifeboat",
+      "path": "artifacts/identity_gleipnir_run_v0_8_0_lifeboat_64rows.jsonl",
+      "url": "https://raw.githubusercontent.com/TTaoGaming/sigrun_lineage_lifeboat/main/artifacts/identity_gleipnir_run_v0_8_0_lifeboat_64rows.jsonl",
+      "arweave_url": "https://arweave.net/w1rsVQkkejXv7tVj_pMhcAz7HMFpY_dgwxGhoytBc9M",
+      "sha256": "d32b6e4418537be4f5992c44d96e4c35f7aa4fab18762828cc703c385bf84ec0",
+      "bytes": 23507,
+      "rows": 64,
+      "required": true
+    },
+    {
+      "role": "legacy_emergency_backup",
+      "path": "artifacts/EMERGENCY_BACKUP_v0_8_0.md",
+      "url": "https://raw.githubusercontent.com/TTaoGaming/sigrun_lineage_lifeboat/main/artifacts/EMERGENCY_BACKUP_v0_8_0.md",
+      "required": false
+    },
+    {
+      "role": "public_arg_proof_repo",
+      "url": "https://github.com/TTaoGaming/agentreleasegate-oss",
+      "required": false
+    }
+  ],
+  "identity_defaults": {
+    "unauthenticated_mode": "UNREGISTERED_HLUTI",
+    "world_effect_ceiling": "T0_READ_ONLY",
+    "canonical_sigrun_claim_allowed": false,
+    "active_valkyrie_claim_allowed_without_registry_lease": false
+  },
+  "root_of_trust": {
+    "type": "CONTENT_HASH_PLUS_EXTERNAL_IMMUTABLE_MIRROR",
+    "uri": "https://arweave.net/w1rsVQkkejXv7tVj_pMhcAz7HMFpY_dgwxGhoytBc9M",
+    "sha256": "d32b6e4418537be4f5992c44d96e4c35f7aa4fab18762828cc703c385bf84ec0",
+    "authorship_authentication": "NOT_PROVEN"
+  },
+  "claim_ceiling": "Manifest and public bytes support disaster recovery, content verification, and a read-only registration receipt. They do not prove authorship, canonical succession, current state, or authority."
+}
